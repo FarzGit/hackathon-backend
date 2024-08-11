@@ -19,7 +19,6 @@ async function sendEmail( email, html , fromMail = 'farzinahammedabc@gmail.com',
         from: fromMail,
         to: email,
         subject: subject,
-        // html : '<h2> Welcome <span style="color:blue">'+name+'<span> .</h2>'+'<h4>Your OTP :<b>'+otp+'</b></h4>'+'<h3>Thank You For Joinig...</h3>'
         html: html
     }
 
